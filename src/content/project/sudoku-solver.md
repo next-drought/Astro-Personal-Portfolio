@@ -8,7 +8,7 @@ timestamp: 2022-03-06
 description: A sudoku solver that utilises backtracking to enumerate and exhaust all possible board states.
 
 codeLink: https://github.com/TheDynamicPacific/sudoku-solver
-demoLink: https://sudoku-solver-elliott.netlify.app/
+deployment: https://sudoku-solver-elliott.netlify.app/
 ---
 
 A sudoku solver that utilises backtracking to enumerate and exhaust all possible board states.

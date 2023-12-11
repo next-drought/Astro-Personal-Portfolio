@@ -7,7 +7,7 @@ image:
 timestamp: 2022-03-52
 description: An AI capable of playing minesweeper.
 codeLink: https://github.com/TheDynamicPacific/minesweeper-ai
-demoLink: https://minesweeper-elliott.netlify.app/
+deployment: https://minesweeper-elliott.netlify.app/
 ---
 
 A minesweeper AI that uses a combination of logical deduction and probability to play minesweeper. This project was built with p5.js. This solves constrained satisfaction problems using a backtracking algorithm. The algorithm is as follows:

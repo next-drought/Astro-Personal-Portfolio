@@ -6,7 +6,7 @@ image:
   alt: "Imperial Chinese & Sushi"
 timestamp: 2018-12-11
 description: A seamless online ordering system for Imperial Chinese & Sushi, a renowned restaurant. Enables convenient and efficient order placement for customers.
-demoLink: https://imp.imperialbcs.com/
+deployment: https://imp.imperialbcs.com/
 ---
 
 Developed with modern web technologies, this project introduces a **user-friendly online ordering system** for Imperial BCS restaurant. It offers a streamlined process for customers to browse menus and place orders directly from their devices.

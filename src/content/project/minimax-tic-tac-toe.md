@@ -8,7 +8,7 @@ timestamp: 2022-03-05
 description: This is a demostration of the minimax algorithm, an adversarial search algorithm. The AI is optimised with alpha beta pruning. Made with p5js
 
 codeLink: https://github.com/TheDynamicPacific/minimax-Tic-Tac-Toe
-demoLink: https://minimax-tictactoe.netlify.app/
+deployment: https://minimax-tictactoe.netlify.app/
 ---
 
 This is a demostration of the minimax algorithm, an adversarial search algorithm. The AI is optimised with alpha beta pruning. Made with p5js

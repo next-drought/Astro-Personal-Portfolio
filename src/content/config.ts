@@ -9,7 +9,7 @@ const projectCollection = defineCollection({
     timestamp: z.date(),
     description: z.string(),
     codeLink: z.string().optional(),
-    demoLink: z.string().optional(),
+    deployment: z.string().optional(),
   }),
 });
 // 3. Export a single `collections` object to register your collection(s)

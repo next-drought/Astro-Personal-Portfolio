@@ -6,7 +6,7 @@ image:
   alt: ""
 timestamp: 2023-04-17
 description: A realtime, gamified education platform that allows students to practice JavaScript questions. Used and deployed in Singapore Polytechnic
-demoLink: https://socpracticeme.vercel.app
+deployment: https://socpracticeme.vercel.app
 ---
 
 Built with NextJS 13, MUI and TRPC, this serverless project serves as a **realtime, gamified education platform** that allows students to practice JavaScript questions. Used and deployed in Singapore Polytechnic.

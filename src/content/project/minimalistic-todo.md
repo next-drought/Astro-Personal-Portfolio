@@ -6,7 +6,7 @@ image:
   alt: "minimalistic todo app"
 timestamp: 2022-11-02
 description: A simple and minimalistic todo list for the power user, built with DaisyUI and TailwindCSS, featuring a theme switcher and persistent storage using LocalStorage.
-demoLink: https://todo-elliott.netlify.app/
+deployment: https://todo-elliott.netlify.app/
 codeLink: https://github.com/TheDynamicPacific/todo-list-daisy
 ---
 

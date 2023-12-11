@@ -8,7 +8,7 @@ timestamp: 2023-01-01
 description: My school's timetable page was not very user friendly, so I built a custom timetable page with CSS Grid and Flexbox.
 
 codeLink: https://github.com/TheDynamicPacific/timetable-maker
-demoLink: https://timetable.TheDynamicPacific.tech/
+deployment: https://timetable.TheDynamicPacific.tech/
 ---
 
 My school's timetable page was not very user friendly, so I built a custom timetable page with CSS Grid and Flexbox.

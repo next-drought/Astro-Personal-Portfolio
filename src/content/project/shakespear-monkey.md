@@ -8,7 +8,7 @@ timestamp: 2022-06-27
 description: Shakespeare monkey simulation with genetic algorithm
 
 codeLink: https://github.com/TheDynamicPacific/Shakespear-Monkey
-demoLink: https://shakespear-monkey-elliott.netlify.app/
+deployment: https://shakespear-monkey-elliott.netlify.app/
 ---
 
 Shakespeare monkey simulation with genetic algorithm
