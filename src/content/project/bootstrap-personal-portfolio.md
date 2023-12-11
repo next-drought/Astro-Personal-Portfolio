@@ -1,13 +1,12 @@
 ---
-title: Bootstrap Personal Portfolio Website
-tags: [Bootstrap, Frontend, Assignment]
+title: Cloud Geospatial Applications
+tags: [Python, Streamlit, Leafmap, Geemap, Pydeck]
 image:
-  src: /images/hero.png
-  alt: ""
-timestamp: 2022-08-09
-description: As part of my frontend development project at Singapore Polytechnic, this website was built with bootstrap, a CSS framework for quickly building out nice looking websites.
-demoLink: https://bootstrap-TheDynamicPacific.netlify.app
-codeLink: https://github.com/TheDynamicPacific/bootstap_personal_portfolio
+  src: /images/Cloud_GIS.png
+  alt: "Cloud Geospatial Applications"
+timestamp: 2023-11-11
+description: An innovative web app showcasing interactive geospatial visualizations using Streamlit and libraries like Leafmap, Geemap, Pydeck, and Kepler.gl.
+demoLink: https://huggingface.co/spaces/NextDrought/nextdrought
 ---
 
-As part of my frontend development project at Singapore Polytechnic, this website was built with bootstrap, a CSS framework for quickly building out nice looking websites.
+Built with Streamlit, this web app integrates advanced open-source mapping libraries to demonstrate dynamic geospatial data analysis. It's a tool for visualizing and interacting with diverse datasets, enhancing understanding of environmental patterns and trends. Hosted on Hugging Face Spaces, it represents a leap in accessible geospatial technology.

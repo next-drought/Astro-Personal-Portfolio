@@ -1,13 +1,12 @@
 ---
-title: Personal Portfolio Website
-tags: [Astro, TailwindCSS, Netlify]
+title: Cloud Geospatial Applications
+tags: [Python, Streamlit, Leafmap, Geemap, Pydeck]
 image:
-  src: /images/hero.png
-  alt: ""
-timestamp: 2023-05-21
-description: You are looking at it now! A rebuilt of my personal portfolio website using Astro, TailwindCSS and Netlify
-demoLink: https://TheDynamicPacific.tech
-codeLink: https://github.com/TheDynamicPacific/astro-personal-portfolio
+  src: /images/Cloud_GIS.png
+  alt: "Cloud Geospatial Applications"
+timestamp: 2023-11-11
+description: An innovative web app showcasing interactive geospatial visualizations using Streamlit and libraries like Leafmap, Geemap, Pydeck, and Kepler.gl.
+demoLink: https://huggingface.co/spaces/NextDrought/nextdrought
 ---
 
-Built with Astro, TailwindCSS and TypeScript. This is a rebuilt of my personal portfolio website Astro, everything is written in TypeScript and the site is built with TailwindCSS. Hosted on Netlify. Custom styling ;)
+Built with Streamlit, this web app integrates advanced open-source mapping libraries to demonstrate dynamic geospatial data analysis. It's a tool for visualizing and interacting with diverse datasets, enhancing understanding of environmental patterns and trends. Hosted on Hugging Face Spaces, it represents a leap in accessible geospatial technology.
