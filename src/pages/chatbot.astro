@@ -1,34 +1,40 @@
----
-// Import statements (if any) go here
----
-
-<div id="chatbot-container">
-    <!-- This is where the chatbot will appear -->
+<!-- chatbot.astro -->
+<div class="container">
+    <div class="chatbox">
+      <div class="chatbox__support">
+        <div class="chatbox__header">
+          <div class="chatbox__image--header">
+            <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image" />
+          </div>
+          <div class="chatbox__content--header">
+            <h4 class="chatbox__heading--header">Chat with DynamicPacific</h4>
+            <p class="chatbox__description--header">
+              Hi. This is DynamicPacific. How can I help you?
+            </p>
+          </div>
+        </div>
+        <div class="chatbox__messages">
+          <div></div>
+        </div>
+        <div class="chatbox__footer">
+          <input type="text" placeholder="Write a message..." />
+          <button class="chatbox__send--footer send__button">Send</button>
+        </div>
+      </div>
+      <div class="chatbox__button">
+        <button><img src="./images/chatbox-icon.svg" /></button>
+      </div>
+    </div>
   </div>
   
-  <script>
-    // Replace this with the actual JavaScript code provided by your chatbot service
-    // This script is responsible for initializing and displaying the chatbot in the 'chatbot-container' div
-    (function() {
-      // Example: Initialization code for the chatbot
-      const chatbot = createChatbot();
-      chatbot.init({
-        containerId: 'chatbot-container',
-        // Additional configuration options...
-      });
-    })();
-  </script>
-  
-  <style>
-    /* Add your CSS styles for the chatbot container here */
-    #chatbot-container {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 300px;
-      height: 400px;
-      z-index: 1000;
-      /* Additional styling... */
+
+  <!-- Add this at the end of your chatbot.astro file -->
+<script>
+    class Chatbox {
+      // ... (your existing JavaScript class code)
     }
-  </style>
+  
+    const chatbox = new Chatbox();
+    chatbox.display();
+  </script>
   
