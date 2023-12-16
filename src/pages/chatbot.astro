@@ -1,0 +1,34 @@
+---
+// Import statements (if any) go here
+---
+
+<div id="chatbot-container">
+    <!-- This is where the chatbot will appear -->
+  </div>
+  
+  <script>
+    // Replace this with the actual JavaScript code provided by your chatbot service
+    // This script is responsible for initializing and displaying the chatbot in the 'chatbot-container' div
+    (function() {
+      // Example: Initialization code for the chatbot
+      const chatbot = createChatbot();
+      chatbot.init({
+        containerId: 'chatbot-container',
+        // Additional configuration options...
+      });
+    })();
+  </script>
+  
+  <style>
+    /* Add your CSS styles for the chatbot container here */
+    #chatbot-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 300px;
+      height: 400px;
+      z-index: 1000;
+      /* Additional styling... */
+    }
+  </style>
+  
