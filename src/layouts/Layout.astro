@@ -25,6 +25,10 @@ const { title } = Astro.props;
       <slot />
       <Footer />
     </div>
+    <div class="lg:max-w-screen-lg mx-auto py-4 px-8 lg:px-0">
+      <slot />
+      <Chatbot />
+    </div>   
     <div class="container">
       <div class="chatbox">
         <div class="chatbox__support">
