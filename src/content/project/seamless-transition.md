@@ -9,4 +9,4 @@ description: An seamless transition of Google legacy site
 deployment: https://sites.google.com/view/thedynamicpacific
 ---
 
-[Google recently announced](https://support.google.com/business/answer/14368911) to discontinue websites that built using Google Business Profiles. A solution has been developed for a seamless transition of Google's legacy websites with a practical and cost-effective solution. The newly designed google site provides user-friendly interface and leverages the google's latest cloud technology. 
+Google recently [announced](https://support.google.com/business/answer/14368911) to discontinue websites that built using Google Business Profiles. A solution has been developed for a seamless transition of Google's legacy websites with a practical and cost-effective solution. The newly designed google site provides user-friendly interface and leverages the google's latest cloud technology. 
