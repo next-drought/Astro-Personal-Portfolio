@@ -1,4 +1,4 @@
-## Web site for [The Dynamic Pacific](https://www.thedynamicpacific.com)
+## Web site for NextDrought
 
 Built with Astro, TailwindCSS and TypeScript.
 Hosted on Netlify.
