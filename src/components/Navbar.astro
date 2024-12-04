@@ -1,0 +1,56 @@
+---
+const navItems = [
+  { name: 'Features', href: '/features' },
+  { name: 'Data Sources', href: '/data-sources' },
+  { name: 'Models', href: '/models' },
+  { name: 'Documentation', href: '/docs' },
+  { name: 'API', href: '/api' }
+];
+---
+
+<nav class="bg-white dark:bg-gray-900">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="/" class="text-blue-600 font-bold text-xl">NextDroughtAI</a>
+      
+      <div class="hidden md:flex space-x-4">
+        {navItems.map(item => (
+          <a href={item.href} class="text-gray-900 dark:text-white hover:text-blue-600">
+            {item.name}
+          </a>
+        ))}
+        <a href="/login" class="text-gray-900 dark:text-white hover:text-blue-600">
+          Login
+        </a>
+      </div>
+
+      <button id="mobile-menu-button" class="md:hidden">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden">
+      <div class="px-2 pt-2 pb-3 space-y-1">
+        {navItems.map(item => (
+          <a href={item.href} class="block text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 px-3 py-2 rounded-md">
+            {item.name}
+          </a>
+        ))}
+        <a href="/login" class="block text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 px-3 py-2 rounded-md">
+          Login
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const button = document.getElementById('mobile-menu-button');
+  const menu = document.getElementById('mobile-menu');
+
+  button?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>

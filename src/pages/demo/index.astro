@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import ImageUploader from '../../components/ImageUploader';
+import DataAnalytics from '../../components/DataAnalytics';
+---
+
+<Layout title="Demo - NextDroughtAI Platform">
+  <Navbar />
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="text-center mb-12">
+      <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Interactive Demo</h1>
+      <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">
+        Experience our drought analysis capabilities firsthand. Upload environmental data and see real-time insights.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div class="w-full">
+        <ImageUploader client:load />
+      </div>
+      <div class="w-full">
+        <DataAnalytics client:load />
+      </div>
+    </div>
+
+    <div class="mt-16 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+      <h2 class="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Supported Data Types</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="p-4 rounded-lg bg-blue-50 dark:bg-blue-900/20">
+          <h3 class="font-semibold text-gray-900 dark:text-white">Satellite Imagery</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-300 mt-2">Multi-spectral and thermal imagery for drought assessment</p>
+        </div>
+        <div class="p-4 rounded-lg bg-blue-50 dark:bg-blue-900/20">
+          <h3 class="font-semibold text-gray-900 dark:text-white">Weather Station Data</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-300 mt-2">Temperature, precipitation, and humidity measurements</p>
+        </div>
+        <div class="p-4 rounded-lg bg-blue-50 dark:bg-blue-900/20">
+          <h3 class="font-semibold text-gray-900 dark:text-white">Soil Measurements</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-300 mt-2">Soil moisture, composition, and temperature data</p>
+        </div>
+        <div class="p-4 rounded-lg bg-blue-50 dark:bg-blue-900/20">
+          <h3 class="font-semibold text-gray-900 dark:text-white">Field Observations</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-300 mt-2">Ground truth data and vegetation assessments</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>
